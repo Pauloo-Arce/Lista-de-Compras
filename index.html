@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de compras</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Lista de Compras</h1>
+      <p class="text-info">*Coloca el nombre del producto y su cantidad*</p>
+    </header>
+    <main>
+      <div class="container">
+        <article class="article-inputs">
+          <input
+            type="text"
+            id="producto-text"
+            placeholder="Banana"
+            class="producto-text"
+          />
+          <div class="cantidad">
+            <input
+              type="number"
+              min="1"
+              max="100"
+              id="producto-cantidad"
+              class="producto-cantidad"
+            />
+            <button>⬇️</button>
+          </div>
+          <button id="btn-agregar" class="btn-agregar">Agregar</button>
+        </article>
+        <hr class="divisor" />
+        <article>
+          <div id="items-productos"></div>
+        </article>
+      </div>
+    </main>
+    <script src="/app/app.js"></script>
+  </body>
+</html>
