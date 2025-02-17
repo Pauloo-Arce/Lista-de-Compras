@@ -40,23 +40,14 @@ body {
   padding: 5px 10px;
 }
 
-.cantidad {
-  display: flex;
-  align-items: center;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
-  background: #ffffff;
-  width: 80px;
-}
-
 .producto-cantidad {
-  width: 35px;
+  width: 50px;
   border: none;
   text-align: center;
-  background: transparent;
+  background: #fff;
   padding: 5px;
   outline: none;
+  border-radius: 5px;
 }
 
 .producto-cantidad::-webkit-inner-spin-button,
@@ -65,16 +56,6 @@ body {
   margin: 0;
 }
 
-.cantidad button {
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  justify-content: center;
-}
-
-.cantidad button img {
-  padding: 0 5px;
-}
 
 .btn-agregar {
   background-color: #117942;
